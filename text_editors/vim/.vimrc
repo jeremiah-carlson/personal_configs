@@ -20,6 +20,7 @@ set hidden
 set signcolumn=yes
 set colorcolumn=100
 hi ColorColumn ctermbg=lightcyan guibg=blue
+syntax on
 
 "Sound Control
 set belloff=all
