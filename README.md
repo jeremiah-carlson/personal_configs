@@ -1,2 +1,9 @@
-# personal_configs
-This repository holds configuration files for programing tools
+# Personal Configs
+
+This repository holds configuration files for programing tools.
+
+## Text Editors
+
+### VS Code
+
+### VIM
