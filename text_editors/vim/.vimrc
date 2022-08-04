@@ -1,9 +1,9 @@
 set exrc
 
 "Visibility
-set autoindent
-set noexpandtab
-set tabstop=4
+set noautoindent
+set expandtab
+set tabstop=6
 set shiftwidth=4
 set nohlsearch
 set nowrap
