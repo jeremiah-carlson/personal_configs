@@ -16,19 +16,19 @@ then
 
         window=0
         tmux rename-window -t $session_name:$window 'Edit'
-        tmux send-keys -t $session_name:$window 'cd /home/clifford/_prod' C-m
+        tmux send-keys -t $session_name:$window 'cd /home/user_name/_prod' C-m
 
         window=1
         tmux new-window -t $session_name:$window -n 'Test'
-        tmux send-keys -t $session_name:$window 'cd /home/clifford/_prod' C-m
+        tmux send-keys -t $session_name:$window 'cd /home/user_name/_prod' C-m
 
         window=2
         tmux new-window -t $session_name:$window -n 'Git'
-        tmux send-keys -t $session:$window 'cd /home/clifford/_prod' C-m
+        tmux send-keys -t $session:$window 'cd /home/user_name/_prod' C-m
 
         window=3
         tmux new-window -t $session_name:$window -n 'Admin'
-        tmux send-keys -t $session_name:$window 'sudo -i'
+        tmux send-keys -t $session_name:$window 'cd /'
 
         tmux attach-session -t $session_name
 
