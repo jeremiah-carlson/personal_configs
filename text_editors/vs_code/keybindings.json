@@ -1,2 +1,15 @@
 // Place your key bindings in this file to override the defaults
-[]
+[
+     {
+        "key": "ctrl+space z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+space t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+space m",
+        "command": "workbench.action.toggleSidebarVisibility",
+    },
+]
