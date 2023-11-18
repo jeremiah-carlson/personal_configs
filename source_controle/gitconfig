@@ -1,0 +1,19 @@
+[user]
+	name = jeremiah-carlson
+	email = 87202597+jeremiah-carlson@users.noreply.github.com
+	signingkey = ed25519
+[commit]
+	gpgSign = false
+[tag]
+	gpgSign = false
+[alias]
+	last = log -1 HEAD
+	st = status
+	i = init
+	viz = log --graph --decorate --oneline --all
+	dfs = diff --staged
+[core]
+	autocrlf = true
+	editor = vim
+[help]
+	autocorrect = 1
