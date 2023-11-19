@@ -1,0 +1,13 @@
+# ~/.config/tmuxinator/go.yml
+
+name: go
+root: .
+
+windows:
+  - editor:
+      layout: f047,274x82,0,0{175x82,0,0,0,98x82,176,0[98x51,176,0,1,98x30,176,52,2]}
+
+      panes:
+        - nvim .
+        - go env
+        - go test ./... -v
